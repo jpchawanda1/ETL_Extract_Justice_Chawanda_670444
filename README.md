@@ -81,6 +81,9 @@ This workflow is designed to manage and update a dataset of immigration records.
 
 
 **Key Features**
+- Ensures the dataset and last_extraction.txt file are always in sync.
+- Provides an interactive way to manage records.
+- Handles empty datasets gracefully.
 ---
 
 ## How to Reproduce
