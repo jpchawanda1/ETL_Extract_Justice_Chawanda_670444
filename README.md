@@ -35,18 +35,23 @@ This repository demonstrates the concepts of **Full Extraction** and **Increment
 
 ## What the Notebook Does
 
-- **Section 1: Full Extraction**
-  - Loads the entire dataset from `Immigration_Data.csv`
-  - Displays basic statistics (row count, column count, data sample)
-  - Prints a message like: “Extracted X rows fully.”
+This workflow is designed to manage and update a dataset of immigration records. It includes functionality to:
 
-- **Section 2: Incremental Extraction**
-  - Reads the last extraction timestamp from `last_extraction.txt`
-  - Extracts only the new or updated records since the last extraction
-  - Prints a message like: “Extracted Y rows incrementally since last check.”
+- Display the timestamp of the last recorded entry.
+- Allow the user to add a new record interactively.
+- Update a text file (last_extraction.txt) with the timestamp of the last record.
 
-- **Section 3: Save New Timestamp**
-  - Updates `last_extraction.txt` with the latest extraction timestamp
+**Steps**
+1. Load the Dataset
+- The dataset is loaded from a CSV file located at K:\Code Projects\ETL_Extract_Justice_Chawanda_670444\Immigration_Data.csv.
+- If the dataset is empty, a message is written to the last_extraction.txt file indicating that the dataset is empty.
+
+3. Display the Last Recorded Timestamp
+- If the dataset is not empty, the timestamp of the last record is retrieved and written to the last_extraction.txt file.
+- This ensures that the file always reflects the most recent update.
+
+5. Add a New Record
+- The user is prompted to decide whether they want to add a new record.
 
 ---
 
