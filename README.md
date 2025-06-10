@@ -1,5 +1,3 @@
-Here is a well-formatted version of your README.md file:
-
 ---
 
 # ETL Extract Lab
@@ -124,5 +122,3 @@ jupyter notebook etl_extract.ipynb
 This project is for educational purposes only.
 
 ---
-
-Let me know if you'd like this in markdown format or if you want further customization!
