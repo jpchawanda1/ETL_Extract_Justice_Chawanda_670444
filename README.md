@@ -52,7 +52,35 @@ This workflow is designed to manage and update a dataset of immigration records.
 
 5. Add a New Record
 - The user is prompted to decide whether they want to add a new record.
+- If the user chooses "yes":
+    *The user is asked to input details for the new record, including:
+          -Immigrant ID
+          -Passport Number
+          -Name
+          -Country
+          -Purpose of Visit
+          -Contact
+          -Payment Status
+- The current timestamp is automatically added to the record.
+- The new record is appended to the dataset.
+- The updated dataset is saved back to the CSV file.
+- The last_extraction.txt file is updated with the timestamp of the newly added record.
 
+- If the user chooses "no":
+    *A message "No new record added." is displayed.
+
+
+**Files Used**
+1. Immigration_Data.csv
+- Stores the dataset of immigration records.
+- Updated whenever a new record is added.
+  
+2. last_extraction.txt
+- Stores the timestamp of the last recorded entry.
+- Updated every time the workflow is executed, regardless of whether a new record is added.
+
+
+**Key Features**
 ---
 
 ## How to Reproduce
