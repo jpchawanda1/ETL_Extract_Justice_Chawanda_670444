@@ -125,6 +125,7 @@ jupyter notebook etl_extract.ipynb
 ![Screenshot 2025-06-10 222540](https://github.com/user-attachments/assets/03a06fcc-3a8a-4fec-92ad-80d064a540eb)  
 ![Screenshot 2025-06-10 222927](https://github.com/user-attachments/assets/8bc45cdd-5bea-4dd0-8b29-78058d13cb80)  
 ![Screenshot 2025-06-10 223049](https://github.com/user-attachments/assets/26a8462e-b6c2-4163-88a9-7a1f0038cb8e)
+![image](https://github.com/user-attachments/assets/0893e0ae-9468-46d1-9572-eb634add43a1)
 
 ---
 
