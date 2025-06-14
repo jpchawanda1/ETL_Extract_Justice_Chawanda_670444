@@ -1,2 +1,2 @@
-immigrant_id,passport_number,name,country,purpose_of_visit,contact,payment_status,timestamp,date_of_birth,age,country_group
-MI0103,EWIO4359323,Lucy Nkwinika,United States,Study,lucy@example.com,Paid,,1993-05-09,32,Other
+immigrant_id,passport_number,name,date_of_birth,age,contact,country,country_group,purpose_of_visit,payment_status,timestamp
+IM0102,UKSD2482392,Lucy Nkwinika,09/05/1993,32,lucy@email.com,United States ,Other,Study,Paid,14/06/2025 21:07
