@@ -1,0 +1,104 @@
+immigrant_id,passport_number,name,date_of_birth,age,contact,country,country_group,purpose_of_visit,payment_status,timestamp
+IM0001,A12345678,Emily Smith,1989-11-27,35,emily.smith@email.com,United Kingdom,Europe,Tourism,Paid,01-06-2025 00:00:00
+IM0002,B23456789,John Doe,1972-05-10,53,johndoe@email.com,United States,North America,Business,Paid,01-06-2025 02:16:00
+IM0003,C34567890,Wei Zhang,1984-10-04,40,weizhang@email.cn,China,Asia,Study,Pending,01-06-2025 04:32:00
+IM0004,D45678901,Maria Garcia,1984-03-19,41,maria.garcia@email.es,Spain,Europe,Tourism,Paid,01-06-2025 06:48:00
+IM0005,E56789012,Ahmed Ali,2002-10-04,22,ahmed.ali@email.eg,Egypt,Africa,Transit,Paid,01-06-2025 09:04:00
+IM0006,F67890123,Anna Müller,2000-11-23,24,anna.mueller@email.de,Germany,Europe,Business,Pending,01-06-2025 11:20:00
+IM0007,G78901234,Samuel Osei,1985-09-13,39,samuel.osei@email.com,Ghana,Africa,Tourism,Paid,01-06-2025 13:36:00
+IM0008,H89012345,Olga Ivanova,1987-02-26,38,olga.ivanova@email.ru,Russia,Other,Study,Paid,01-06-2025 15:52:00
+IM0009,I90123456,Haruka Tanaka,1971-04-12,54,haruka.tanaka@email.jp,Japan,Asia,Tourism,Pending,01-06-2025 18:08:00
+IM0010,J01234567,Lucas Silva,1982-02-13,43,lucas.silva@email.br,Brazil,South America,Business,Paid,01-06-2025 20:24:00
+IM0011,K12345679,Aisha Khan,1985-04-10,40,aisha.khan@email.pk,Pakistan,Asia,Tourism,Paid,01-06-2025 22:40:00
+IM0012,L23456780,Jean Dupont,2001-11-10,23,jean.dupont@email.fr,France,Europe,Study,Pending,02-06-2025 00:56:00
+IM0013,M34567891,Mary Johnson,2001-02-10,24,mary.johnson@email.ca,Canada,North America,Tourism,Paid,02-06-2025 03:12:00
+IM0014,N45678902,Liam Murphy,2000-06-03,25,liam.murphy@email.ie,Ireland,Other,Business,Paid,02-06-2025 05:28:00
+IM0015,O56789013,Leila Benali,1992-10-14,32,leila.benali@email.ma,Morocco,Other,Transit,Pending,02-06-2025 07:44:00
+IM0016,P67890124,Kim Min-jun,1974-08-13,50,kim.minjun@email.kr,South Korea,Other,Tourism,Paid,02-06-2025 10:00:00
+IM0017,Q78901235,Sophia Rossi,1972-02-09,53,sophia.rossi@email.it,Italy,Europe,Study,Paid,02-06-2025 12:16:00
+IM0018,R89012346,Juan Perez,1998-12-23,26,juan.perez@email.mx,Mexico,North America,Tourism,Pending,02-06-2025 14:32:00
+IM0019,S90123457,Anna Nowak,1989-01-10,36,anna.nowak@email.pl,Poland,Other,Business,Paid,02-06-2025 16:48:00
+IM0020,T01234568,David Brown,1976-08-30,48,david.brown@email.au,Australia,Oceania,Tourism,Paid,02-06-2025 19:04:00
+IM0021,U12345680,Hassan Omar,1984-07-17,40,hassan.omar@email.ke,Kenya,Africa,Study,Pending,02-06-2025 21:21:00
+IM0022,V23456781,Isabella Santos,1983-10-31,41,isabella.santos@email.pt,Portugal,Other,Tourism,Paid,02-06-2025 23:37:00
+IM0023,W34567892,Chloe Lee,1987-07-31,37,chloe.lee@email.my,Malaysia,Other,Business,Paid,03-06-2025 01:53:00
+IM0024,X45678903,Viktor Petrov,1973-03-30,52,viktor.petrov@email.bg,Bulgaria,Other,Transit,Pending,03-06-2025 04:09:00
+IM0025,Y56789014,Nadia Popescu,1982-06-22,43,nadia.popescu@email.ro,Romania,Other,Tourism,Paid,03-06-2025 06:25:00
+IM0026,Z67890125,George Wilson,1979-04-09,46,george.wilson@email.nz,New Zealand,Oceania,Study,Paid,03-06-2025 08:41:00
+IM0027,AA78901236,Julia Kim,2003-09-14,21,julia.kim@email.kr,South Korea,Other,Tourism,Pending,03-06-2025 10:57:00
+IM0028,BB89012347,Victor Hugo,1987-07-07,37,victor.hugo@email.br,Brazil,South America,Business,Paid,03-06-2025 13:13:00
+IM0029,CC90123458,Mohamed Salah,2005-09-09,19,mohamed.salah@email.eg,Egypt,Africa,Tourism,Paid,03-06-2025 15:29:00
+IM0030,DD01234569,Olivia Davis,2000-05-19,25,olivia.davis@email.com,United States,North America,Study,Pending,03-06-2025 17:45:00
+IM0031,EE12345681,Thomas Meier,1993-09-23,31,thomas.meier@email.ch,Switzerland,Other,Tourism,Paid,03-06-2025 20:01:00
+IM0032,FF23456782,Anya Singh,1995-05-24,30,anya.singh@email.in,India,Asia,Business,Paid,03-06-2025 22:17:00
+IM0033,GG34567893,Rafael Torres,1977-01-02,48,rafael.torres@email.ar,Argentina,South America,Transit,Pending,04-06-2025 00:33:00
+IM0034,HH45678904,Laura Müller,1991-06-29,33,laura.mueller@email.de,Germany,Europe,Tourism,Paid,04-06-2025 02:49:00
+IM0035,II56789015,Ali Reza,1975-08-10,49,ali.reza@email.ir,Iran,Other,Study,Paid,04-06-2025 05:05:00
+IM0036,JJ67890126,Patrick O'Brien,1977-07-10,47,patrick.obrien@email.ie,Ireland,Other,Tourism,Pending,04-06-2025 07:21:00
+IM0037,KK78901237,Chen Wei,1995-02-06,30,chen.wei@email.cn,China,Asia,Business,Paid,04-06-2025 09:37:00
+IM0038,LL89012348,Sara Svensson,1997-05-17,28,sara.svensson@email.se,Sweden,Other,Tourism,Paid,04-06-2025 11:53:00
+IM0039,MM90123459,Juan Lopez,1970-07-09,54,juan.lopez@email.co,Colombia,South America,Transit,Pending,04-06-2025 14:09:00
+IM0040,NN01234570,Anna Ivanova,1977-06-27,47,anna.ivanova@email.ru,Russia,Other,Tourism,Paid,04-06-2025 16:25:00
+IM0041,OO12345682,James Wilson,1978-03-25,47,james.wilson@email.ca,Canada,North America,Study,Paid,04-06-2025 18:42:00
+IM0042,PP23456783,Nguyen Thi Mai,1982-10-03,42,nguyen.mai@email.vn,Vietnam,Other,Tourism,Pending,04-06-2025 20:58:00
+IM0043,QQ34567894,Peter Schmidt,1975-03-15,50,peter.schmidt@email.de,Germany,Europe,Business,Paid,04-06-2025 23:14:00
+IM0044,RR45678905,Julia Petrova,1991-03-06,34,julia.petrova@email.ru,Russia,Other,Transit,Paid,05-06-2025 01:30:00
+IM0045,SS56789016,Diego Fernandez,1973-06-21,52,diego.fernandez@email.es,Spain,Europe,Tourism,Pending,05-06-2025 03:46:00
+IM0046,TT67890127,Mei Ling,1974-03-09,51,mei.ling@email.cn,China,Asia,Study,Paid,05-06-2025 06:02:00
+IM0047,UU78901238,Michael Clark,2001-03-13,24,michael.clark@email.co.uk,United Kingdom,Europe,Business,Paid,05-06-2025 08:18:00
+IM0048,VV89012349,Sofia Rossi,1979-09-27,45,sofia.rossi@email.it,Italy,Europe,Tourism,Pending,05-06-2025 10:34:00
+IM0049,WW90123460,Ahmed Hassan,1980-08-26,44,ahmed.hassan@email.sa,Saudi Arabia,Other,Transit,Paid,05-06-2025 12:50:00
+IM0050,XX01234571,Emily Wong,1994-03-14,31,emily.wong@email.hk,Hong Kong,Other,Study,Paid,05-06-2025 15:06:00
+IM0051,YY12345683,Noah Lee,2000-05-03,25,noah.lee@email.sg,Singapore,Other,Tourism,Pending,05-06-2025 17:22:00
+IM0052,ZZ23456784,Rachel Adams,1984-10-07,40,rachel.adams@email.au,Australia,Oceania,Business,Paid,05-06-2025 19:38:00
+IM0053,AAA34567895,Oscar Martinez,1999-02-05,26,oscar.martinez@email.es,Spain,Europe,Tourism,Paid,05-06-2025 21:54:00
+IM0054,BBB45678906,Isabel Fernandez,1994-01-27,31,isabel.fernandez@email.mx,Mexico,North America,Transit,Pending,06-06-2025 00:10:00
+IM0055,CCC56789017,Leo Dubois,1998-11-25,26,leo.dubois@email.fr,France,Europe,Study,Paid,06-06-2025 02:26:00
+IM0056,DDD67890128,David Kim,1998-01-27,27,david.kim@email.kr,South Korea,Other,Tourism,Paid,06-06-2025 04:42:00
+IM0057,EEE78901239,Anna Svensson,1993-02-02,32,anna.svensson@email.se,Sweden,Other,Business,Pending,06-06-2025 06:58:00
+IM0058,FFF89012350,Mohamed Ali,1998-01-07,27,mohamed.ali@email.eg,Egypt,Africa,Tourism,Paid,06-06-2025 09:14:00
+IM0059,GGG90123461,Lucas Costa,2000-02-29,25,lucas.costa@email.br,Brazil,South America,Study,Paid,06-06-2025 11:30:00
+IM0060,HHH01234572,Sophie Dubois,1990-07-28,34,sophie.dubois@email.fr,France,Europe,Tourism,Pending,06-06-2025 13:46:00
+IM0061,III12345684,Emily Evans,1977-02-25,48,emily.evans@email.com,United States,North America,Tourism,Paid,06-06-2025 16:03:00
+IM0062,JJJ23456785,Pedro Souza,1989-04-12,36,pedro.souza@email.pt,Portugal,Other,Business,Paid,06-06-2025 18:19:00
+IM0063,KKK34567896,Li Wei,1996-02-29,29,li.wei@email.cn,China,Asia,Transit,Pending,06-06-2025 20:35:00
+IM0064,LLL45678907,Anna Müller,1987-01-27,38,anna.mueller2@email.de,Germany,Europe,Tourism,Paid,06-06-2025 22:51:00
+IM0065,MMM56789018,James McCarthy,1985-01-08,40,james.mccarthy@email.ie,Ireland,Other,Study,Paid,07-06-2025 01:07:00
+IM0066,NNN67890129,Yusra Fatima,1989-06-09,36,yusra.fatima@email.in,India,Asia,Tourism,Pending,07-06-2025 03:23:00
+IM0067,OOO78901240,Laura Rossi,1996-06-23,28,laura.rossi@email.it,Italy,Europe,Business,Paid,07-06-2025 05:39:00
+IM0068,PPP89012351,Samuel Brown,1999-06-06,26,samuel.brown@email.ca,Canada,North America,Tourism,Paid,07-06-2025 07:55:00
+IM0069,QQQ90123462,Ahmed Yusuf,1972-02-15,53,ahmed.yusuf@email.ng,Nigeria,Africa,Transit,Pending,07-06-2025 10:11:00
+IM0070,RRR01234573,Isabella Silva,2003-06-03,22,isabella.silva@email.br,Brazil,South America,Study,Paid,07-06-2025 12:27:00
+IM0071,SSS12345685,Ali Al-Farsi,1992-07-10,32,ali.alfarsi@email.om,Oman,Other,Tourism,Paid,07-06-2025 14:43:00
+IM0072,TTT23456786,Yuki Nakamura,1978-08-19,46,yuki.nakamura@email.jp,Japan,Asia,Business,Pending,07-06-2025 16:59:00
+IM0073,UUU34567897,Marta Lopez,1997-10-13,27,marta.lopez@email.es,Spain,Europe,Tourism,Paid,07-06-2025 19:15:00
+IM0074,VVV45678908,Peter Johnson,1974-05-05,51,peter.johnson@email.com,United States,North America,Transit,Paid,07-06-2025 21:31:00
+IM0075,WWW56789019,Amina Ahmed,1980-10-18,44,amina.ahmed@email.eg,Egypt,Africa,Study,Pending,07-06-2025 23:47:00
+IM0076,XXX67890130,George Brown,1990-09-08,34,george.brown@email.co.uk,United Kingdom,Europe,Tourism,Paid,08-06-2025 02:03:00
+IM0077,YYY78901241,Xinyi Chen,1978-06-01,47,xinyi.chen@email.cn,China,Asia,Business,Paid,08-06-2025 04:19:00
+IM0078,ZZZ89012352,Anna Johansson,1972-10-18,52,anna.johansson@email.se,Sweden,Other,Tourism,Pending,08-06-2025 06:35:00
+IM0079,AAA90123463,Lucas Martin,2001-11-27,23,lucas.martin@email.ar,Argentina,South America,Transit,Paid,08-06-2025 08:51:00
+IM0080,BBB01234574,Marie Dubois,1999-08-02,25,marie.dubois@email.fr,France,Europe,Study,Paid,08-06-2025 11:07:00
+IM0081,CCC12345686,David Wilson,1980-07-10,44,david.wilson@email.au,Australia,Oceania,Tourism,Pending,08-06-2025 13:24:00
+IM0082,DDD23456787,Emma Müller,1991-11-16,33,emma.mueller@email.de,Germany,Europe,Business,Paid,08-06-2025 15:40:00
+IM0083,EEE34567898,Juan Alvarez,1996-07-15,28,juan.alvarez@email.mx,Mexico,North America,Tourism,Paid,08-06-2025 17:56:00
+IM0084,FFF45678909,Olga Petrova,2005-07-26,19,olga.petrova@email.ru,Russia,Other,Transit,Pending,08-06-2025 20:12:00
+IM0085,GGG56789020,Isabella Rossi,1988-10-26,36,isabella.rossi@email.it,Italy,Europe,Study,Paid,08-06-2025 22:28:00
+IM0086,HHH67890131,James Lee,1985-07-16,39,james.lee@email.kr,South Korea,Other,Tourism,Paid,09-06-2025 00:44:00
+IM0087,III78901242,Amira El-Sayed,1970-06-11,55,amira.elsayed@email.eg,Egypt,Africa,Business,Pending,09-06-2025 03:00:00
+IM0088,JJJ89012353,Anna Karlsson,1981-10-07,43,anna.karlsson@email.se,Sweden,Other,Tourism,Paid,09-06-2025 05:16:00
+IM0089,KKK90123464,Lucas Almeida,1997-11-08,27,lucas.almeida@email.br,Brazil,South America,Transit,Paid,09-06-2025 07:32:00
+IM0090,LLL01234575,Marie Laurent,1972-09-22,52,marie.laurent@email.fr,France,Europe,Study,Pending,09-06-2025 09:48:00
+IM0091,MMM12345687,David Miller,2005-11-16,19,david.miller@email.com,United States,North America,Tourism,Paid,09-06-2025 12:04:00
+IM0092,NNN23456788,Pedro Lima,2001-07-31,23,pedro.lima@email.pt,Portugal,Other,Business,Paid,09-06-2025 14:20:00
+IM0093,OOO34567899,Li Na,2004-11-21,20,li.na@email.cn,China,Asia,Transit,Pending,09-06-2025 16:36:00
+IM0094,PPP45678910,Anna Weber,1990-11-21,34,anna.weber@email.de,Germany,Europe,Tourism,Paid,09-06-2025 18:52:00
+IM0095,QQQ56789021,James O'Connor,2002-10-30,22,james.oconnor@email.ie,Ireland,Other,Study,Paid,09-06-2025 21:08:00
+IM0096,RRR67890132,Yusra Begum,1995-12-03,29,yusra.begum@email.in,India,Asia,Tourism,Pending,09-06-2025 23:24:00
+IM0097,SSS78901243,Laura Bianchi,1972-10-13,52,laura.bianchi@email.it,Italy,Europe,Business,Paid,10-06-2025 01:40:00
+IM0098,TTT89012354,Samuel Green,1991-07-19,33,samuel.green@email.ca,Canada,North America,Tourism,Paid,10-06-2025 03:56:00
+IM0099,UUU90123465,Ahmed Musa,1987-08-19,37,ahmed.musa@email.ng,Nigeria,Africa,Transit,Pending,10-06-2025 06:12:00
+IM0100,VVV01234576,Isabella Costa,1991-08-11,33,isabella.costa@email.br,Brazil,South America,Study,Paid,10-06-2025 08:28:00
+IM0101,BVB877123,Pemba Comfort,1988-10-16,36,comfort@email.com,Malawi,Other,Study,Paid,10-06-2025 21:35:00
+IM0104,HERK43853903,Justice Chawanda,1991-09-04,33,chawanda@example.com,Malawi,Other,Study,Paid,
+MI0103,EWIO4359323,Lucy Nkwinika,1993-05-09,32,lucy@example.com,United States,North America,Study,Paid,
