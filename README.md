@@ -199,7 +199,7 @@ jupyter notebook etl_extract.ipynb
 ---
 
 ### Screenshots
-
+Check respective uploaded folders or files for outputs.
 
 ---
 
