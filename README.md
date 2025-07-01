@@ -1,5 +1,3 @@
-
-
 ---
 
 # ETL Extract Lab
@@ -9,9 +7,24 @@
 
 ---
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Files Included](#files-included)
+- [Tools Used](#tools-used)
+- [Workflow & ETL Steps](#workflow--etl-steps)
+- [Lab 5 – Load](#lab-5--load)
+- [Key Features](#key-features)
+- [How to Run](#how-to-run)
+- [Future Improvements](#future-improvements)
+- [Screenshots](#screenshots)
+- [License](#license)
+
+---
+
 ## Project Overview
 
-This repository demonstrates **Full Extraction** and **Incremental Extraction** concepts in ETL (Extract, Transform, Load) processes using Python and pandas. Implemented as a Jupyter Notebook, it manages a dataset of immigration records, enabling you to add, transform, and track records and their updates.
+This repository demonstrates **Full Extraction** and **Incremental Extraction** concepts in ETL (Extract, Transform, Load) processes using Python and pandas. Implemented as a Jupyter Notebook, it manages interactive data entry, transformation, and saving of both full and incremental datasets.
 
 ---
 
@@ -33,42 +46,68 @@ This repository demonstrates **Full Extraction** and **Incremental Extraction** 
 - **pandas**
 - **Jupyter Notebook**
 - **tabulate** (for table display)
+- **sqlite3** (for optional database output)
+- **pyarrow** or **fastparquet** (for Parquet output, optional)
 
 ---
 
-## Workflow & Features
+## Workflow & ETL Steps
 
-- Display the timestamp of the last recorded entry.
-- Add a new record interactively.
-- Update `last_extraction.txt` with the timestamp of the last record.
-- Transform the data (enrichment, formatting, categorization).
-- Output both full and incremental transformed datasets.
+### 1. Load the Dataset
+- Loads `Immigration_Data.csv`.
+- If empty, notes this in `last_extraction.txt`.
 
-### ETL Steps
+### 2. Display Last Recorded Timestamp
+- Writes the last record’s timestamp to `last_extraction.txt`.
 
-1. **Load the Dataset**
-    - Loads `Immigration_Data.csv`.
-    - If empty, notes this in `last_extraction.txt`.
+### 3. Add a New Record
+- Prompts the user for new immigration record data.
+- Automatically adds the current timestamp and updates the dataset.
 
-2. **Display Last Recorded Timestamp**
-    - Writes the last record’s timestamp to `last_extraction.txt`.
+### 4. Transform Full Data
+- **Enrichment:** Calculates `age` from `date_of_birth`.
+- **Structural:** Standardizes `timestamp` to `%Y-%m-%d %H:%M:%S`.
+- **Categorization:** Groups `country` into regions (Africa, Europe, Asia, North America, South America, Oceania, Other).
+- Saves the result as `transformed_full.csv`.
 
-3. **Add a New Record**
-    - Prompts the user for new immigration record data.
-    - Automatically adds the current timestamp and updates the dataset.
+### 5. Transform Incremental Data
+- Applies the above transformations only to the newest record(s).
+- Saves as `transformed_incremental.csv`.
 
-4. **Transform Full Data**
-    - **Enrichment:** Calculates `age` from `date_of_birth`.
-    - **Structural:** Standardizes `timestamp` to `%Y-%m-%d %H:%M:%S`.
-    - **Categorization:** Groups `country` into regions (Africa, Europe, Asia, North America, South America, Oceania, Other).
-    - Saves the result as `transformed_full.csv`.
+### 6. Display Results
+- Shows the first 10 rows of both full and incremental transformed datasets.
 
-5. **Transform Incremental Data**
-    - Applies the above transformations only to the newest record(s).
-    - Saves as `transformed_incremental.csv`.
+---
 
-6. **Display Results**
-    - Shows the first 10 rows of both full and incremental transformed datasets.
+## Lab 5 – Load
+
+This section summarizes the **Load** phase of the ETL process as implemented in this project.
+
+**Loading Method Used:**  
+- Data is loaded from pandas DataFrames into persistent storage after transformation.
+- The project supports CSV output by default, and includes sample code for saving to SQLite databases and Parquet files.
+
+**Sample Code:**
+```python
+# Save to CSV (default)
+df_transformed.to_csv('transformed_full.csv', index=False)
+
+# Save to SQLite database (optional)
+import sqlite3
+conn = sqlite3.connect('etl_output.db')
+df_transformed.to_sql('immigration_data', conn, if_exists='replace', index=False)
+conn.close()
+
+# Save to Parquet (optional)
+df_transformed.to_parquet('transformed_full.parquet', index=False)
+```
+
+**Output Locations:**
+- `transformed_full.csv` and `transformed_incremental.csv` (CSV files, always produced)
+- `etl_output.db` (SQLite database, optional)
+- `transformed_full.parquet` (Parquet file, optional)
+
+*Note: To enable SQLite or Parquet output, uncomment or add the relevant code snippets in the notebook.*
 
 ---
 
@@ -98,6 +137,12 @@ Install Jupyter and pandas if needed:
 ```bash
 pip install pandas jupyter
 ```
+For optional database and Parquet output:
+```bash
+pip install pyarrow sqlite3
+# or, for Parquet with fastparquet
+pip install fastparquet
+```
 
 ### 3. Run the Notebook
 
@@ -122,11 +167,6 @@ jupyter notebook etl_extract.ipynb
 
 ## Screenshots
 
-![Screenshot 2025-06-10 222540](https://github.com/user-attachments/assets/03a06fcc-3a8a-4fec-92ad-80d064a540eb)  
-![Screenshot 2025-06-10 222927](https://github.com/user-attachments/assets/8bc45cdd-5bea-4dd0-8b29-78058d13cb80)  
-![Screenshot 2025-06-10 223049](https://github.com/user-attachments/assets/26a8462e-b6c2-4163-88a9-7a1f0038cb8e)
-![image](https://github.com/user-attachments/assets/0893e0ae-9468-46d1-9572-eb634add43a1)
-![image](https://github.com/user-attachments/assets/a251be62-e7e4-47ab-99e3-e2e55c447bca)
 
 ---
 
@@ -135,5 +175,3 @@ jupyter notebook etl_extract.ipynb
 This project is for educational purposes only.
 
 ---
-
-
