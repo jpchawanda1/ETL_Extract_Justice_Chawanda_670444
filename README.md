@@ -1,8 +1,8 @@
 
 
-# ETL Extract Lab
+# Extraction, Transformation, Loading Labs 3,4,5
 
-- **pyarrow** or **fastparquet** (for Parquet output, optional)
+**Justice Chawanda - 670444**
 
 ## Workflow & ETL Steps (Etraction) LAB 3
 
@@ -42,11 +42,6 @@ pip install pyarrow fastparquet
 jupyter notebook etl_extract.ipynb
 # For the load phase:
 
-**Output Locations:**
-- `Tranformed/Tranformed_Full.csv` and `Tranformed/Transformed_Incremental.csv` (CSV files, always produced)
-- `Loaded_Data/full_transformed.db` and `Loaded_Data/incremental_transformed.db` (SQLite databases, recommended)
-- `Tranformed/Tranformed_Full.parquet` and `Tranformed/Transformed_Incremental.parquet` (Parquet files, optional)
-
 ---
 
 ## Key Features
@@ -77,8 +72,6 @@ jupyter notebook elt_load.ipynb
 
 - The file `Raw_Data/Immigration_Data.csv` is included and contains example records.
 - You may replace it with your own data as long as it meets the minimum requirements (see notebook for columns).
-
----
 
 ---
 
@@ -145,11 +138,9 @@ df_transformed.to_parquet('transformed_full.parquet', index=False)
 ```
 
 **Output Locations:**
-- `transformed_full.csv` and `transformed_incremental.csv` (CSV files, always produced)
-- `etl_output.db` (SQLite database, optional)
-- `transformed_full.parquet` (Parquet file, optional)
-
-*Note: To enable SQLite or Parquet output, uncomment or add the relevant code snippets in the notebook.*
+- `Tranformed/Tranformed_Full.csv` and `Tranformed/Transformed_Incremental.csv` (CSV files, always produced)
+- `Loaded_Data/full_transformed.db` and `Loaded_Data/incremental_transformed.db` (SQLite databases, recommended)
+- `Tranformed/Tranformed_Full.csv` and `Tranformed/Transformed_Incremental.csv` (CSV files, always produced)
 
 ---
 
