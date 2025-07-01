@@ -1,4 +1,3 @@
----
 
 # ETL Extract Lab
 
