@@ -1,2 +1,4 @@
-immigrant_id,passport_number,name,date_of_birth,age,contact,country,country_group,purpose_of_visit,payment_status,timestamp
-IM0104,UIYU8789323,Chifundo Banda,1995-05-18,30,chifundo@example.com,United Kingdom,Europe,Work,Paid,2025/07/01 14:11
+immigrant_id,passport_number,name,date_of_birth,contact,country,purpose_of_visit,payment_status,timestamp,age,country_category
+IM0105,DKJF34284934,Leo Chawanda,23/04/2004,leo@email.com,Malawi,Business,Paid,01/07/2025 21:22,21,Africa
+IM0108,RUTR9034834,Innocent Lijabu,13/07/1995,innocentlijabu@email.com,United Kingdom,Business,Paid,01/07/2025 21:52,29,Europe
+IM0107,JREJR32223212,Boyd Chima,23/05/1982,chima@email.com,China,Study,Paid,01/07/2025 22:05,43,Asia
